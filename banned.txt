@@ -1,0 +1,15 @@
+# One regex per line (case-insensitive). Per-bot words; the generic list is built into banned_scan.py.
+# Mirror of the list inside <!-- banned-list --> markers in tidewick-core-rules.
+\bguarantee\b
+\bcan'?t lose\b
+\bsure thing\b
+\beasy money\b
+\bpassive income\b
+\bget rich\b
+\bfinancial freedom\b
+\bselling always wins\b
+\bfree money\b
+\bto the moon\b
+\bquietly\b
+\bhow options traders really think\b
+\byou should (buy|sell|hold|trade)\b

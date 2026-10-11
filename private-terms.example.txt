@@ -1,0 +1,13 @@
+# Copy to private-terms.txt in the repo root (it is gitignored). One term per line, case-insensitive.
+# The repo is PUBLIC, so this list is the backstop: anything here must never reach a commit.
+# Put in: other people's names, handles and emails · postal addresses · account, card and invoice
+# numbers · agent IDs · Mac or Windows usernames · private Sheet, Doc and Drive links.
+# Leave OUT: the owner's published name. It is required in the listing ("Made by Komal Amin",
+# checklist J5), so listing it here makes the scan fail on a file that has to say it.
+# Leave OUT too: a published author's name or handle where we credit work of theirs we build on
+# (e.g. at the head of PUBLISH-CHECKLIST section N). Attribution is the opposite of a leak.
+# Skills are different: no owner name, pronoun, city or timezone in a skill (guardrail 12).
+other-person-name
+other-person-handle
+street-address
+account-number

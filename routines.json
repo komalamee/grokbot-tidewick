@@ -1,0 +1,14 @@
+[
+  {
+    "slug": "tidewick-next-chapter",
+    "name": "Tidewick next-chapter note",
+    "description": "One short note when the next chapter is waiting. Off unless the player switches it on.",
+    "schedule": "Weekly on Saturday at 10:00 in the owner's timezone, or the day and time the player picks when switching it on.",
+    "cron": "0 10 * * 6",
+    "trigger": "time",
+    "enabled": false,
+    "needs": [],
+    "quiet_when": "Not switched on by the player; reminder set to off in the casebook; every chapter finished; a chapter played or started in the last 6 days; or a note was already sent for this chapter and it hasn't been played since.",
+    "job": "Read the casebook first. If none of the quiet rules apply, send one line: \"Chapter {N}, '{title}', is ready when you are. Say 'play' to start, or 'stop reminders'.\" At most one message, never a chaser, no guilt or streak talk. Then run casebook.py note-sent so no second note goes out for this chapter."
+  }
+]

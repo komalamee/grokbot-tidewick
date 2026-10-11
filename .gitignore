@@ -1,0 +1,5 @@
+private-terms.txt
+*.local.*
+.env*
+args/*.FAILED.json
+__pycache__/

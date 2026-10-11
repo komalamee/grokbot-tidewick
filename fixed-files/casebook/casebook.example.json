@@ -1,0 +1,53 @@
+{
+ "version": 1,
+ "player": {
+  "name": "Sam",
+  "traded_before": "never",
+  "started_on": "2026-10-08"
+ },
+ "current_chapter": "ch02",
+ "chapters": {
+  "ch01": {
+   "status": "done",
+   "started_on": "2026-10-08",
+   "reason": "The fee is mine either way and I'd be happy to own crates at £10.",
+   "choice": "A",
+   "result_gbp": 8.0,
+   "finished_on": "2026-10-08"
+  }
+ },
+ "clues": [
+  {
+   "id": "clue-01",
+   "chapter": "ch01"
+  }
+ ],
+ "concepts": [
+  {
+   "id": "put-option",
+   "chapter": "ch01"
+  },
+  {
+   "id": "right-vs-promise",
+   "chapter": "ch01"
+  }
+ ],
+ "review": [
+  {
+   "concept": "put-option",
+   "from": "ch01",
+   "due_at": "ch03",
+   "right": 0
+  },
+  {
+   "concept": "right-vs-promise",
+   "from": "ch01",
+   "due_at": "ch03",
+   "right": 0
+  }
+ ],
+ "settings": {
+  "next_chapter_reminder": "off",
+  "last_note_for": null
+ }
+}
